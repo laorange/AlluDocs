@@ -2,7 +2,7 @@
 
 > Q：这个系统的数据安全吗？
 
-A：后端使用的Django也是一个经过多年迭代的成熟框架。数据库采用的是阿里云的关系型云数据库RDS，支持MySQL、SQL Server、PostgreSQL、MariaDB和PPAS引擎，具备容灾、备份、恢复、迁移等方面的全套解决方案，大厂品质值得信赖。
+A：后端使用的Django是一个经过多年迭代的成熟框架。数据库采用的是阿里云的关系型云数据库RDS，支持MySQL、SQL Server、PostgreSQL、MariaDB和PPAS引擎，具备容灾、备份、恢复、迁移等方面的全套解决方案，大厂品质值得信赖。
 
 
 
