@@ -14,8 +14,16 @@ export default defineUserConfig<DefaultThemeOptions>({
     theme: '@vuepress/theme-default',
 
     themeConfig: {
-        repo: 'laorange/allu-docs',
         logo: "/images/siae.png",
+        repo: 'laorange/allu-docs',
+        docsDir: 'docs/',
+        docsBranch: 'master/',
+        lastUpdatedText: "更新时间",
+        contributors: false,
+        tip: "提示",
+        warning: "小心",
+        danger: "注意",
+        backToHome: "回到首页",
 
         navbar: [
             // NavbarItem

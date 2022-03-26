@@ -1,6 +1,6 @@
 # SIAE-课程管理系统-使用说明
 
-文档地址：[https://laorange.github.io/allu-docs/](https://laorange.github.io/allu-docs/)
+文档地址：[http://docs.siae.top/](http://docs.siae.top/)
 
 
 
