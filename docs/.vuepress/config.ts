@@ -16,13 +16,13 @@ export default defineUserConfig<DefaultThemeOptions>({
         '/en-US/': {
             lang: 'en-US',
             title: 'SIAE Course Manager',
-            description: 'Introduction',
+            description: 'Documentation',
 
         },
         '/fr-FR/': {
             lang: 'fr-FR',
             title: 'SIAE - Administrateur de cours',
-            description: 'Introduction',
+            description: "Manuel d'utilisation",
         },
     },
 
@@ -60,6 +60,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         ],
         sidebar: [
             "/guide/README.md",
+            "/guide/quick-start.md",
             "/guide/subscriber.md",
             "/guide/manager.md",
             '/guide/faq.md',
@@ -71,7 +72,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 lastUpdatedText: "更新时间",
                 tip: "提示",
                 warning: "注意",
-                danger: "危险",
+                danger: "小心",
                 backToHome: "回到首页",
             },
             '/en-US/': {
