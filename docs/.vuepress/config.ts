@@ -5,6 +5,12 @@ export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
     base: "/allu-docs/",
 
+    markdown: {
+        extractHeaders: {
+            level: [1, 2, 3, 4]
+        }
+    },
+
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -37,6 +43,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         docsDir: 'docs/',
         docsBranch: 'master/',
 
+        sidebarDepth: 4,
+
         contributors: false,
 
         navbar: [
@@ -61,19 +69,20 @@ export default defineUserConfig<DefaultThemeOptions>({
         sidebar: [
             "/guide/README.md",
             "/guide/quick-start.md",
-            "/guide/subscriber.md",
             "/guide/manager.md",
+            "/guide/subscriber.md",
             '/guide/faq.md',
         ],
 
         locales: {
             '/': {
                 selectLanguageName: '简体中文',
-                lastUpdatedText: "更新时间",
+                lastUpdatedText: "最近更新时间",
                 tip: "提示",
                 warning: "注意",
                 danger: "小心",
                 backToHome: "回到首页",
+                editLinkText: "编辑此页",
             },
             '/en-US/': {
                 selectLanguageName: 'English',
